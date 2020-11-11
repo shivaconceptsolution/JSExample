@@ -1,0 +1,27 @@
+<script type="text/javascript">
+
+class A
+{
+    constructor(a)
+    {
+        this.a=a;
+    }
+   
+    get getA()
+    {
+       return this.a
+    }
+
+    set setA(a)
+    {
+       this.a=a;   
+    }
+}	
+
+	
+var obj = new A(10)
+console.log(obj.getA)
+obj.setA=200
+console.log(obj.getA)
+
+</script>

@@ -1,0 +1,35 @@
+<script>
+
+class SI{
+    
+    constructor(p,r,t)
+    {
+    	this.p=p;
+    	this.r=r;
+    	this.t=t;
+
+    }
+
+    calculate()
+    {
+    	this.si = (this.p*this.r*this.t)/100
+    	console.log(this.si)
+    }
+    
+    addition(a,b)
+    {
+        this.c= a + b
+        console.log(this.c)
+        return this.c
+    }
+
+
+}
+
+var obj = new SI(450000,4,4)
+obj.calculate()
+var res = obj.addition(1000,200)
+console.log(res)
+
+
+</script>
